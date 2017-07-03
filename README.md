@@ -1,1 +1,1 @@
-# example project for hand on usage of servlet
+# example project for hands on usage of servlet
