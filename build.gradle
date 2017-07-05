@@ -1,0 +1,25 @@
+apply plugin : 'java'
+apply plugin : 'eclipse'
+apply plugin : 'war'
+
+
+webAppDirName : 'WebContent'
+
+sourceSets {
+	main {
+
+		java {
+
+			srcDir 'Java Resources/src'
+		}
+
+		resources {
+
+			srcDir 'Java Resources/src'
+		}
+	}
+}
+
+dependencies {
+	compile fileTree(dir: "$WebContent/WEB_INF/lib", include: '*.jar')
+}
